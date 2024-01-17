@@ -10,7 +10,7 @@ function Nav() {
     },{
       title: "About",
       link: "/about",
-      ja:"概要"
+      ja:"略歴"
     },{
       title: "Works",
       link: "/works",
