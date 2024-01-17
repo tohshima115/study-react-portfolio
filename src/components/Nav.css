@@ -1,0 +1,76 @@
+:root{
+    --color_1:#eee;
+    --color_2:#1f1f1f;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+
+.nav{
+    position: relative;
+    z-index: 10;
+}
+
+.sidebar{
+    margin: 6% 6%;
+}
+
+.list{
+    width: 200px;
+    height: 40px;
+    list-style: none;
+    font-size: 24px;
+    color: var(--color_1);
+    background-color: var(--color_2);
+    border: 1px solid var(--color_1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.square{
+    height: 8px;
+    width: 8px;
+    margin: 0 16px;
+    background-color: var(--color_1);
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.hovered,.active{
+    color: var(--color_2);
+    background-color: var(--color_1);
+}
+
+.hovered .square{
+    background-color: var(--color_2);
+}
+
+.active .square{
+    background-color: var(--color_2);
+}
+
+.subtitles{
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub{
+    display: none;
+    font-family: 'Zen Maru Gothic', serif;
+    color: var(--color_1);
+    font-size: 36px;
+    padding:0 10px;
+    text-shadow:2px 2px 0 var(--color_2), -2px -2px 0 var(--color_2),
+    -2px 2px 0 var(--color_2), 2px -2px 0 var(--color_2),
+    0px 2px 0 var(--color_2),  0 -2px 0 var(--color_2),
+    -2px 0 0 var(--color_2), 2px 0 0 var(--color_2);
+}
+
+.title{
+    display: block;
+}
