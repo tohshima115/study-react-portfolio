@@ -1,0 +1,18 @@
+.cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1f1f1f;
+    z-index: 5;
+    opacity: 1;
+    animation: fadeout-anim 2s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes fadeout-anim{
+    to{
+        opacity: 0;
+    }
+}

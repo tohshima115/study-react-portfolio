@@ -8,12 +8,14 @@ import Works from './pages/Works/Works';
 import Studies from './pages/Studies/Studies';
 import Contact from './pages/Contact/Contact';
 import Univers from './components/Univers';
+import Cover from './components/Cover';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Univers/>
     <BrowserRouter>
+      <Cover />
+      <Univers />
       <Routes>
         <Route path="/" element={<Top />} /> 
         <Route path="/about" element={<About />} /> 
