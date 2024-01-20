@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    height: 100vh;
+}
+
+main{
+    padding: 40px;
+}
+
+.face{
+    height: 300px;
+    filter: brightness(75%) sepia(50%) grayscale(50%);
+    margin-right: 24px;
+}
+
+.basic-info{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.adition-info{
+    max-width: 800px;
+}
+
+.text-info{
+    color: #eee;
+    font-size: 20px;
+    white-space: pre-wrap;
+    line-height: 36px;
+}
+
+.typewriter::after{
+    content: "|";
+    animation: blink 1s infinite step-end;
+}
+
+@keyframes blink{
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

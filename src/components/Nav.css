@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --color_1:#eee;
     --color_2:#1f1f1f;
@@ -8,10 +13,7 @@
 .nav{
     position: relative;
     z-index: 10;
-}
-
-.sidebar{
-    margin: 6% 6%;
+    margin: max(6%,100px) 6%;
 }
 
 .list{

@@ -1,10 +1,12 @@
 import './Studies.css';
 import Nav from '../../components/Nav';
+import Container from '../../components/Container';
 
 function Studies() {
   return (
-    <div>
+    <div className='studies'>
       <Nav/>
+      <Container/>
     </div>
   )
 }

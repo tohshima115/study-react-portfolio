@@ -1,0 +1,17 @@
+:root{
+    --color_1:#eee;
+    --color_2:#1f1f1f;
+}
+
+.header{
+    display: flex;
+    height: 96px;
+    align-items: center;
+    border-bottom: 2px solid var(--color_1);
+}
+
+.title-path{
+    margin-bottom: 12px;
+    font-size: 72px;
+    color: var(--color_1);
+}

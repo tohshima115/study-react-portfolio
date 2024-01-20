@@ -15,7 +15,7 @@ function Planet() {
   console.log(randomLetter)
 
   return (
-    <div className={`container ${isPathnameNotEmpty ? "blur" : ""}`}>
+    <div className={`center ${isPathnameNotEmpty ? "blur" : ""}`}>
       <div className='sun'>
         <div className='earth'>
           <div className='earth-locus'></div>
