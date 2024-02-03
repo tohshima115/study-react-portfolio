@@ -1,0 +1,30 @@
+.card{
+    display: block;
+    margin: 0;
+    background-color:#00000060;
+    border-radius: 10px;
+}
+
+.card-genre{
+    color: #eee;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.card-order{
+    padding-bottom: 6px;
+}
+
+.card-img{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.card-text{
+    display: block;
+    color: #eee;
+    padding:0 10px 10px;
+}

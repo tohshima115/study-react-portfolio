@@ -5,6 +5,12 @@
 
 main{
     padding: 40px;
+    height: calc(100% - 218px);
+    overflow: auto;
+}
+
+main::-webkit-scrollbar{
+    display: none;
 }
 
 .face{
