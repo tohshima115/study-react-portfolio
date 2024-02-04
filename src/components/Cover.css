@@ -7,13 +7,17 @@
     background-color: #1f1f1f;
     z-index: 5;
     opacity: 1;
-    animation: fadeout-anim 2s forwards;
-    animation-delay: 1s;
+    animation:fadeout-anim 2s forwards 1s, z-index-anim 0s forwards 3s;
 }
 
 @keyframes fadeout-anim{
     to{
         opacity: 0;
-        z-index: 0;
+    }
+}
+
+@keyframes z-index-anim{
+    to{
+        z-index: -1;
     }
 }
