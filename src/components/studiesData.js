@@ -1,25 +1,62 @@
-const worksData = [
+const lo = "ロゴ"
+const dl = "365ロゴ"
+const pr = "プレゼン資料用"
+
+export const studiesData = [
     {
-        src:"./alice_logo.jpg",
-        genre:"ロゴ",
-        order:"不思議の国のアリス杯",
-        detail:"友人主催の囲碁大会のロゴを制作"
+        src:"./365_dance.jpg",
+        genre:lo,
+        order:dl,
+        detail:"ダンスの日"
     },{
-        src:"./alice_flyer.jpg",
-        genre:"フライヤー",
-        order:"不思議の国のアリス杯",
-        detail:"友人主催囲碁大会のフライヤーを制作"
+        src:"./365_soner.jpg",
+        genre:lo,
+        order:dl,
+        detail:"ソナーの日"
     },{
-        src:"./poop_1.jpg",
-        genre:"ゲーム画面",
-        order:"蜻蛉会",
-        detail:"友人グループとゲームを共同開発中"
+        src:"./365_mouse.jpg",
+        genre:lo,
+        order:dl,
+        detail:"マウスの日"
     },{
-        src:"./poop_2.jpg",
-        genre:"ゲーム画面",
-        order:"蜻蛉会",
-        detail:"友人グループとゲームを共同開発中"
+        src:"./365_bermuda.jpg",
+        genre:lo,
+        order:dl,
+        detail:"バミューダトライアングルの日"
+    },{
+        src:"./365_igo.jpg",
+        genre:lo,
+        order:dl,
+        detail:"囲碁の日"
+    },{
+        src:"./365_AF.jpg",
+        genre:lo,
+        order:dl,
+        detail:"オートフォーカスの日"
+    },{
+        src:"./365_arpanet.jpg",
+        genre:lo,
+        order:dl,
+        detail:"インターネットの試験運転が開始"
+    },{
+        src:"./365_thank.jpg",
+        genre:lo,
+        order:dl,
+        detail:"勤労感謝の日"
+    },{
+        src:"./line.jpg",
+        genre:lo,
+        order:pr,
+        detail:"Line"
+    },{
+        src:"./shape.jpg",
+        genre:lo,
+        order:pr,
+        detail:"Shape"
+    },{
+        src:"./value.jpg",
+        genre:lo,
+        order:pr,
+        detail:"Value"
     }
 ];
-
-export default worksData;

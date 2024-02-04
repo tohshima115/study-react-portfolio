@@ -19,6 +19,11 @@ const worksData = [
         genre:"ゲーム画面",
         order:"蜻蛉会",
         detail:"友人グループとゲームを共同開発中"
+    },{
+        src:"./toilet.mp4",
+        genre:"ゲーム画面",
+        order:"蜻蛉会",
+        detail:"友人グループとゲームを共同開発中"
     }
 ];
 

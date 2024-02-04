@@ -2,7 +2,7 @@ import './Studies.css';
 import Nav from '../../components/Nav';
 import Header from '../../components/Header';
 import Pinterest from '../../components/Pinterest';
-import studiesData from '../../components/studiesData';
+import { studiesData } from '../../components/studiesData';
 
 function Studies() {
   return (

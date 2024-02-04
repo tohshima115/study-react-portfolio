@@ -17,7 +17,11 @@ function Pinterest({pictureData}){
                 return(
                     <figure className="card" key={value.src}>
                         <h5 className="card-genre">{value.genre}</h5>
-                        <img className="card-img" src={value.src} alt={value.detail} />
+                        {value.src.endsWith('.mp4') ? (
+                            <video className="card-img" controls src={value.src}></video>
+                        ) : (
+                            <img className="card-img" src={value.src} alt={value.detail} />
+                        )}
                         <figcaption className="card-text">
                             <h3 className="card-order">{value.order}</h3>
                             <div className="card-detail">{value.detail}</div>
